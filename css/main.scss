@@ -94,7 +94,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: opacity 2s;
+        transition: opacity 1s;
 
         &:hover {
             opacity: 50%;
@@ -108,8 +108,7 @@ body {
 }
 
 .members-section {
-    //temporary-height
-    height: 1000px;
+    //temporary-height 1000px
     display: flex;
 
     .container h1 {
@@ -151,15 +150,6 @@ body {
         margin-top: -65px;
     }
 
-    .container .members li .img-aqil {
-        width: 8em;
-        height: 8em;
-        object-fit: cover;
-        border: 5px solid #534A49;
-        border-radius: 50%;
-        margin-top: -65px;
-        object-position: -20px 0;   
-    }
 }
 
 .footer {
